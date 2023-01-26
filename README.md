@@ -2,7 +2,7 @@
 <h3 align="center"> AlmaBetter Verified Project - <a href="https://www.almabetter.com/"> AlmaBetter School </a> </h5>
 
 <p align="center"> </p>
-<h2> Problem Statement and Project Description</h2>
+<h2> :floppy_disk: Problem Statement and Project Description</h2>
 <p>Rossmann operates over 3,000 drug stores in 7 European countries. Currently, Rossmann store managers are tasked with predicting their daily sales for up to six weeks in advance. Store sales are influenced by many factors, including promotions, competition, school and state holidays, seasonality, and locality. With thousands of individual managers predicting sales based on their unique circumstances, the accuracy of results can be quite varied.
 You are provided with historical sales data for 1,115 Rossmann stores. The task is to forecast the "Sales" column for the test set. Note that some stores in the dataset were temporarily closed for refurbishment.</p>
 
@@ -12,13 +12,13 @@ You are provided with historical sales data for 1,115 Rossmann stores. The task 
 
 <h2> :floppy_disk: Table of Content</h2>
 
-  * [Problem Statement and Project Description]
-  * [Project Files Description]
-  * [Goal]
-  * [Dataset Information]
-  * [Exploratory Data Analysis]
-  * [Random Forest Model]
-  * [Technologies Used]
+  * Problem Statement and Project Description
+  * Project Files Description
+  * Goal
+  * Dataset Information
+  * Exploratory Data Analysis
+  * Random Forest Model
+  * Technologies Used
   
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
@@ -86,8 +86,20 @@ Simply said, random forest combines many decision trees to produce a more accura
 
 <p>Furthermore, the random forest classifier is efficient, can handle a large number of input variables, and provides correct predictions in most cases. It's a very strong tool that doesn't require any coding to implement.</p>
 
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+
+ <h2> :book: XGB Regressor</h2>
+
+<p>The XGB Regressor model is an implementation of the XGBoost algorithm, which is an optimized version of gradient boosting. It is particularly useful for large datasets and high dimensional data, and is often used in Kaggle competitions and other machine learning challenges. The XGB Regressor model uses decision tree ensembles as its base learners and is trained by minimizing the gradient of the loss function. It is a powerful model that can be used for both regression and classification tasks.
+ 
+![Flow-chart-of-XGBoost](https://user-images.githubusercontent.com/67974590/214810912-9cda9c5a-e722-4aa3-b362-0dad63c6fe8b.png)
+
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+ 
 <h2> :chart_with_upwards_trend: Results</h2>
-<p>Random Forest Tuned Model gave the best results and the patterns that could be captured by the model without overfitting was captured achieving a R^2 of 0.95 which helps in allocation of resources and proper planning for the company's growth.
+<p>In this case, the Random Forest model has a Test_R2 score of 0.9527, which is 3.49% higher than the Decision Tree model's score of 0.920600. This suggests that the Random Forest model is able to make better predictions than the Decision Tree model.
+
+On the other hand, the XGB Regressor Tuned model has a Test_R2 score of 0.955427, which is 0.29% higher than the Random Forest model's score of 0.9527. This suggests that the XGB Regressor Tuned model is able to make slightly better predictions than the Random Forest model. However, the difference is small and may not be significant for all use cases. Therefore, it would be necessary to analyze other performance metrics and evaluate the trade-offs between the different models to determine which one is best suited for a particular task.
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
